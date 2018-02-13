@@ -1,0 +1,307 @@
+html {
+font-size:16px
+}
+
+.offset {
+margin:0;
+height:100px
+}
+
+.alert-stop-demo {
+box-sizing:border-box;
+padding:.94rem;
+border:.0625rem solid #d6e9c6;
+border-radius:.25rem;
+color:black;
+background-color:#c0b3a0
+}
+
+a.my-link:link {
+color:#ffffff
+}
+
+a.my-link:visited {
+color:#c3c3c3;
+text-decoration:underline
+}
+
+a.my-link:hover {
+color:#ff6666;
+cursor:pointer;
+text-decoration:underline
+}
+
+.wrap-centered-content {
+width:100%;
+margin:0 auto
+}
+
+.m-title-div-w-border {
+width:100%;
+float:left;
+display:block;
+box-sizing:border-box;
+padding:.625rem;
+min-height:4.68rem;
+font-size:2rem;
+font-family:monospace;
+border:.125rem solid white;
+background-color:#22252c
+}
+
+.m-i-serif-type-letter-sized {
+font-family:serif;
+font-size:1.75rem
+}
+
+@media (max-width: 800px) {
+.offset {
+display:none
+}
+}
+
+@media all and (max-width: 400px) {
+#container_Chart {
+display:none
+}
+
+.panel-aside-left {
+display:none
+}
+
+.flip-aside-left {
+display:none
+}
+
+#panel {
+display:none
+}
+
+#flip {
+display:none
+}
+
+.m-Table {
+display:block
+}
+
+#m-TableCell1 {
+font-size:.75rem;
+display:block;
+position:absolute;
+top:-9999px;
+left:-9999px
+}
+
+#m-TableCell1-Status {
+width:3rem;
+font-size:1rem
+}
+
+#m-TableCell-Heart {
+font-size:1rem;
+display:block
+}
+}
+
+.m-container-text {
+width:45%;
+min-width:30%;
+margin-right:2%;
+margin-left:10%;
+display:inline-block;
+background-color:#22252c
+}
+
+@media (max-width: 800px) {
+.m-container-text {
+width:80%
+}
+}
+
+.aside {
+width:40%;
+height:100%;
+background-color:#22252c;
+float:left
+}
+
+#panel,#flip {
+box-sizing:border-box;
+padding:.125rem;
+float:right;
+width:10rem;
+background-color:#3f3250;
+border:.0625rem solid #c3c3c3;
+font-size:1rem
+}
+
+#panel {
+border:.0625rem solid #c3c3c3;
+box-sizing:border-box;
+padding:.3125rem;
+font-size:1rem;
+width:34rem;
+float:right;
+display:none;
+background-color:#22252c;
+margin:0
+}
+
+@media (max-width: 650px) {
+#panel {
+width:20rem
+}
+
+.m-title-div-w-border {
+font-size:1.5rem
+}
+
+.m-i-serif-type-letter-sized {
+font-size:1.125rem
+}
+
+#m-h4 {
+font-size:.75rem
+}
+}
+
+.panel-aside-left,.flip-aside-left {
+box-sizing:border-box;
+padding:.125rem;
+text-align:center;
+margin:8.5rem 0 0;
+background-color:#22252c;
+font-size:1rem
+}
+
+.panel-aside-left {
+padding:.3125rem;
+text-align:left;
+background-color:#22252c;
+display:none;
+margin:0;
+font-size:1rem
+}
+
+.m-container-text-100-percent-serif {
+width:65%;
+box-sizing:border-box;
+padding:3%;
+margin:0 10%;
+display:inline-block;
+font-family:Georgia,serif;
+background-color:#22252c
+}
+
+.m-p {
+display:block
+}
+
+#m-h4 {
+color:#ffffff;
+font-size:1.75rem;
+display:inline;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif
+}
+
+.m-h5 {
+color:#ffffff;
+font-size:1.5rem;
+display:inline;
+font-weight:bold;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif
+}
+
+.m-i-by {
+color:#000000
+}
+
+.clear {
+clear:both
+}
+
+.m-hWelcome {
+color:#f7f5e6;
+font-size:1.125rem;
+font-family:Georgia,serif;
+font-weight:bold
+}
+
+.m-Table {
+box-sizing:border-box;
+border:.625rem solid #3f3250;
+display:block;
+width:70%;
+min-width:25rem;
+table-layout:fixed;
+background-color:#333a56;
+float:left;
+border-spacing:.4375rem .5rem;
+margin-left:0
+}
+
+#m-TableCell1 {
+color:white;
+width:2.1875rem;
+height:1.5rem;
+box-sizing:border-box;
+text-overflow:ellipsis;
+white-space:nowrap;
+display:table-cell;
+padding:3px
+}
+
+#m-TableCell-Heart {
+height:1.5rem;
+color:#ffffff;
+display:table-cell;
+text-align:left
+}
+
+#m-TableCell1-Status {
+box-sizing:border-box;
+width:9.37rem;
+height:1.5rem;
+word-wrap:break-word;
+text-overflow:clip;
+display:table-cell;
+padding:3px;
+color:#ff6666
+}
+
+.TableCell {
+box-sizing:border-box;
+height:1.5rem;
+width:2.25rem;
+padding:3px;
+display:table-cell;
+font-weight:bold
+}
+
+.m-TableRowGroup {
+display:table-row-group
+}
+
+.m-footer-p {
+text-align:center;
+font-size:1rem;
+background-color:#22252c;
+padding:0;
+margin:0
+}
+
+body {
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+background-color:#22252c;
+font-size:1rem;
+color:#ffffff;
+text-size-adjust:none
+}
+
+hr {
+display:block;
+margin:.5em auto;
+border-style:inset;
+border-width:1px
+}
